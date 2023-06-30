@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ส่วนของ Tab menu */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.logo {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+}
+
+ul li a {
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.btn {
+    padding: 10px;
+    margin: 0 20px;
+}
+
+/* ส่วนของรูปภาพ */
+
+img {
+    border-radius: 5%;
+    margin: 20px;
+}
+
+.img-01 {
+    text-align: center; 
+}
+
+.img-01 h3 {
+    margin: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+main p {
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.con-01 p {
+    margin: 10px;
+    padding: 10px;
+}
+
+.con-02 {
+    margin: 10px;
+}
+
+.con-03 {
+    text-align: center;
+}
+
+.con-04 {
+    text-align:center;
+    width: 700px;
+    height: 200px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+.con-05 {
+    text-align: center;
+}
+
+.foot {
+    text-align: center;
+    background-color: aqua;
+    color: #000;
+    padding: 1rem;
+}
+
